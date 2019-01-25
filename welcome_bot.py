@@ -8,10 +8,10 @@ from pyrogram import Client, Emoji, Filters
 USER = "**{}**"
 MESSAGE = "{} Welcome to [Pyrogram](https://docs.pyrogram.ml/)'s group chat {{}}!".format(Emoji.SPARKLES)
 
-enabled_groups = Filters.chat("PyrogramChat")
+enabled_groups = Filters.chat("Qopqon")
 last_welcomes = {}
 
-app = Client("creator_id")
+app = "user_id": 379168159
 
 
 @app.on_message(enabled_groups & Filters.new_chat_members)
