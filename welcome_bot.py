@@ -11,7 +11,7 @@ MESSAGE = "{} Welcome to [Pyrogram](https://docs.pyrogram.ml/)'s group chat {{}}
 enabled_groups = Filters.chat("PyrogramChat")
 last_welcomes = {}
 
-app = Client("my_account")
+app = Client("creator_id")
 
 
 @app.on_message(enabled_groups & Filters.new_chat_members)
